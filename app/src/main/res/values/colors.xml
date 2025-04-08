@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#1E3A8A</color> <!-- Dark Blue -->
+    <color name="secondaryColor">#EF4444</color> <!-- Red -->
+    <color name="buttonColor">#10B981</color> <!-- Green -->
+    <color name="backgroundColor">#F3F4F6</color> <!-- Light Grey -->
+    <color name="hintTextColor">#6B7280</color> <!-- Grey for hints -->
+    <color name="blue_purple">#6A5ACD</color> <!-- Sporty mix of blue & purple -->
+    <color name="sporty_bg">#1A1A2E</color> <!-- Dark sporty background -->
+    <color name="white">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/loginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="32sp"
+            android:textColor="@color/primaryColor"
+            android:fontFamily="@font/sporty"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:paddingTop="16dp"/>
+
+        <!-- Email Input -->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_bg"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/sporty"/>
+
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/hintTextColor"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_bg"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/sporty"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/buttonColor"
+            android:layout_marginTop="32dp"
+            android:padding="16dp"
+            android:fontFamily="@font/sporty"/>
+
+        <!-- Don't have an account? Link -->
+        <TextView
+            android:id="@+id/tv_register_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Register"
+            android:textSize="14sp"
+            android:textColor="@color/primaryColor"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/sporty"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
