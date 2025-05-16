@@ -1,82 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
-        android:background="@color/sporty_bg"
-        android:padding="0dp"
-        tools:context=".HomePageActivity">
-
-<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:gravity="center_vertical"
-    android:layout_marginTop="5dp">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sporty_bg"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".HomePageActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <!-- Header Row -->
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_marginStart="16dp">
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp">
 
+        <!-- App Logo -->
         <ImageView
             android:id="@+id/iv_logo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
             android:src="@drawable/logo"
             android:contentDescription="Game Logo" />
 
+        <!-- App Name -->
         <TextView
             android:id="@+id/tv_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_logo"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
             android:text="𝘾𝙖𝙧𝙙𝘾𝙡𝙖𝙨𝙝"
-            android:textSize="32sp"
-            android:textStyle="bold"
+            android:textSize="28sp"
             android:textColor="@color/white"
             android:fontFamily="@font/sporty"
-            android:layout_marginStart="8dp" />
-    </LinearLayout>
+            android:textStyle="bold" />
+
+        <!-- Logout Icon -->
+        <ImageView
+            android:id="@+id/iv_logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_logout"
+            android:contentDescription="Logout"
+            android:padding="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </RelativeLayout>
+
     <Space
-        android:layout_width="90dp"
-        android:layout_height="0dp"
-        />
-    <ImageView
-        android:id="@+id/iv_menu"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:src="@drawable/ic_menu"
-        android:contentDescription="Menu"
-        android:layout_marginEnd="16dp"
-        android:layout_gravity="center" />
+        android:layout_width="match_parent"
+        android:layout_height="240dp"/>
+
+    <!-- Start Game Button -->
+    <Button
+        android:id="@+id/btn_start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/blue_purple"
+        android:background="@drawable/rounded_button_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- View History Button -->
+    <Button
+        android:id="@+id/btn_view_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View History"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/blue_purple"
+        android:background="@drawable/rounded_button_bg"
+        android:padding="12dp" />
 </LinearLayout>
-
-<!-- Start Game Button (Centered, Big, and with Rounded Corners) -->
-<Button
-    android:id="@+id/btn_start_game"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Start Game"
-    android:textSize="22sp"
-    android:textColor="@android:color/white"
-    android:backgroundTint="@color/blue_purple"
-    android:padding="20dp"
-    android:layout_marginTop="200dp"
-    android:layout_gravity="center"
-
-    android:layout_alignParentBottom="true"
-    android:background="@drawable/rounded_button_bg" />
-</LinearLayout>
-    <!--<?xml version="1.0" encoding="utf-8"?>-->
-    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
-    <!--    xmlns:tools="http://schemas.android.com/tools"-->
-    <!--    android:id="@+id/main"-->
-    <!--    android:layout_width="match_parent"-->
-    <!--    android:layout_height="match_parent"-->
-    <!--    tools:context=".HomePageActivity">-->
-
-    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->

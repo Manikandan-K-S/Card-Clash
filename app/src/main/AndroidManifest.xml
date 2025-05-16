@@ -16,6 +16,27 @@
         android:theme="@style/Theme.TrumpCards"
         tools:targetApi="31">
         <activity
+            android:name=".LoseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TurnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdlePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameBeginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartGameActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomePageActivity"
             android:exported="false" />
         <activity

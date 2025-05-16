@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/sporty_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Opponent name -->
+        <TextView
+            android:id="@+id/opponentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opponent"
+            android:textSize="18sp"
+            android:textColor="@color/blue_purple"
+            android:fontFamily="@font/sporty_font"
+            android:paddingBottom="4dp"/>
+
+        <!-- Match result -->
+        <TextView
+            android:id="@+id/matchResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="@font/sporty_font"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

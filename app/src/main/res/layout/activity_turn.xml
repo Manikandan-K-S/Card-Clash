@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/turnScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/sporty_bg">
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Result"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/cardImage"
+        android:layout_width="220dp"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/attributeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attribute used"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

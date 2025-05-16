@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         val jsonBody = JSONObject().apply {
             put("email", email)
-            put("pwd", password)
+            put("password", password)
         }
 
         val stringRequest = object : StringRequest(Request.Method.POST, url,

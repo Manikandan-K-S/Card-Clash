@@ -7,4 +7,29 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <style name="AttrButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:background">@color/blue_purple</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:minHeight">48dp</item> <!-- Reduced height -->
+    </style>
+    <style name="AttrText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:background">@color/blue_purple</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:minHeight">48dp</item> <!-- Reduced height -->
+    </style>
+
+
+
+
 </resources>

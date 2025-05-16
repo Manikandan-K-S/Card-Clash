@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activePlayerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sporty_bg"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <!-- Card Image -->
+    <ImageView
+        android:id="@+id/cardImage"
+        android:layout_width="200dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Card Image"
+        android:layout_gravity="center" />
+
+    <!-- Player Name -->
+    <TextView
+        android:id="@+id/cardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Attribute Buttons -->
+    <Button
+        android:id="@+id/power"
+        style="@style/AttrButton"
+        android:text="Power" />
+
+    <Button
+        android:id="@+id/strikeRate"
+        style="@style/AttrButton"
+        android:text="Strike Rate" />
+
+    <Button
+        android:id="@+id/wickets"
+        style="@style/AttrButton"
+        android:text="Wickets" />
+
+    <Button
+        android:id="@+id/matchesPlayed"
+        style="@style/AttrButton"
+        android:text="Matches Played" />
+
+    <Button
+        android:id="@+id/runsScored"
+        style="@style/AttrButton"
+        android:text="Runs Scored" />
+
+    <Button
+        android:id="@+id/highestScore"
+        style="@style/AttrButton"
+        android:text="Highest Score" />
+
+</LinearLayout>

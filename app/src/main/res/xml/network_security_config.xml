@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">http://192.168.1.100/</domain>
+        <domain includeSubdomains="true">http://192.168.1.101:5000</domain>
         <domain includeSubdomains="true">*.*</domain>
         <domain includeSubdomains="true">192.168.1.100</domain>
-        <domain includeSubdomains="true">192.168.234.25</domain>
+        <domain includeSubdomains="true">192.168.1.101</domain>
         <domain includeSubdomains="true">http://*.*/</domain>
+        <domain includeSubdomains="true">http://192.168.28.25:5000</domain>
+        <domain includeSubdomains="true">192.168.28.25</domain>
+        <domain includeSubdomains="true">http://192.168.1.99:5000</domain>
+        <domain includeSubdomains="true">192.168.1.99</domain>
+
+
+
+
 
 
     </domain-config>

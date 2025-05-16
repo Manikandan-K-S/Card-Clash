@@ -43,6 +43,8 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.volley)
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
 
     // Testing dependencies
     testImplementation(libs.junit)
@@ -55,4 +57,7 @@ dependencies {
 
     // OkHttp for logging and request interceptors
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")  // Use OkHttp 4.x (update version if needed)
+    // Or for OkHttp 3.x
+    // implementation("com.squareup.okhttp3:okhttp:3.x.x")
 }
